@@ -9,5 +9,5 @@ package com.portfolio.mhm.Security.Enums;
  * @author Matt
  */
 public enum RolNombre {
-    ROLE_ADMIN, ROL_USER
+    ROLE_ADMIN, ROLE_USER
 }

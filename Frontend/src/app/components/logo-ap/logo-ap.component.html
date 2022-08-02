@@ -4,11 +4,17 @@
             <img src="../../../assets/APLogo.png" id="logoAP">
         </div>
         <div class="redes">
-            <a href="/login"><img src="../../../assets/linkedin.png" id="linkedin"></a>
-            <a href=""><img src="../../../assets/github.png" id="github"></a>
+            <a href="https://www.linkedin.com/in/matias-muller-/" target="_blank" rel="noopener noreferrer">
+                <img src="../../../assets/linkedin.png" id="linkedin">
+            </a>
+            <a href="https://github.com/matiashmuller" target="_blank" rel="noopener noreferrer">
+                <img src="../../../assets/github.png" id="github">
+            </a>
+            <!--
             <a href=""><img src="../../../assets/facebook.png" id="facebook"></a>
             <a href=""><img src="../../../assets/twitter.png" id="twitter"></a>
             <a href=""><img src="../../../assets/instagram.png" id="instagram"></a>
+            -->
             <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">Iniciar sesión</button>
             <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesión</button>
         </div>

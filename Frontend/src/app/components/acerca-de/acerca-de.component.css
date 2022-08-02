@@ -7,17 +7,6 @@ div{
 }
 
 /*Estilo de foto de perfil*/
-@media(min-width: 576px){
-    #fotodeperfil{
-        position: absolute;
-        width: 15%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 3%;
-        top: 600px;
-    }
-}
-
 @media(max-width: 575px){
     #fotodeperfil{
         position: absolute;
@@ -25,12 +14,35 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 35%;
-        top: 950px;
+        top: 750px;
+    }
+
+    #nombre{
+        margin-top: 15%;
+    }
+}
+
+@media(min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 640px;
+    }
+}
+
+@media(min-width: 1201px){
+    #fotodeperfil{
+        top: 590px;
+    }
+}
+
+@media(min-width: 1801px){
+    #fotodeperfil{
+        top: 540px;
     }
 }
 
 /*Etiqueta nombre*/
-#nombre{
-    font-weight: bold;
-    margin-top: 30%;
-}

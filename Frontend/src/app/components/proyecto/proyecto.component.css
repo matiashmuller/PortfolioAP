@@ -1,6 +1,9 @@
 .row{
     padding: 20px;
-    background-color: #a1b5cb;
+    /*background-color: #a1b5cb;*/
+    background: rgb(2,15,23);
+    background: linear-gradient(102deg, rgba(2,15,23,1) 0%, rgba(59,102,137,1) 100%);
+    color: #fefefe;
 }
 
 .contenedor{

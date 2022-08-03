@@ -1,8 +1,12 @@
 .row{
     padding: 20px;
+    background: rgb(2,15,23);
+    background: linear-gradient(102deg, rgba(2,15,23,1) 0%, rgba(59,102,137,1) 100%);
+    padding: 20px;
+    color: #fefefe;
 }
 div{
-    background-color: #a1b5cb;
+    /*background-color: #a1b5cb;*/
     text-align: center;
 }
 
@@ -12,7 +16,7 @@ div{
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px black;
         left: 35%;
         top: 750px;
     }
@@ -27,7 +31,7 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 3px 3px 3px black;
         left: 3%;
         top: 640px;
     }
@@ -44,5 +48,3 @@ div{
         top: 540px;
     }
 }
-
-/*Etiqueta nombre*/
